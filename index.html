@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to my KodeCamp Promotional Task 3, where I used HTML5 and CSS3 to implement a Sign up Live page from a UI/UX Design"
+    />
+    <meta
+      name="keywords"
+      content="KodeCamp, Sign Up, Live Sign Up, KodeCamp 3.0, HTML3, CSS3, Promotional Task 3, Sign up"
+    />
+    <meta name="Author" content="John Paul Abraham" />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>KodeCamp Promotional Task 3</title>
+  </head>
+  <body>
+    <main id="main-div">
+      <div id="sign-up-div">
+        <img src="./images/logo.svg" alt="KodeCamp Logo" />
+        <form action="#" method="post">
+          <h2>Sign Up</h2>
+
+          <div class="group-1">
+            <div>
+              <label for="fname">First Name</label><br />
+              <input type="text" id="fname" />
+            </div>
+
+            <div>
+              <label for="lname">Last Name</label><br />
+              <input type="text" id="lname" />
+            </div>
+          </div>
+
+          <div class="group-2">
+            <div>
+              <label for="email">Email</label><br />
+              <input type="email" id="email" />
+            </div>
+
+            <div>
+              <label for="gender">Gender</label><br />
+              <input type="radio" id="gender" name="rad" value="Male" checked />
+              Male&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="radio" id="gender" name="rad" value="Female" />
+              Female&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="radio" id="gender" name="rad" value="Other" />
+              Other&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+          </div>
+
+          <div class="group-3">
+            <div>
+              <label for="pword" class="diff-font">Password</label><br />
+              <input type="password" id="pword" />
+            </div>
+
+            <div>
+              <label for="cpword">Comfirm Password</label><br />
+              <input type="password" id="cpw" />
+            </div>
+          </div>
+
+          <div class="group-4">
+            <div>
+              <label for="e-level">Educational Level</label><br />
+              <select name="edu-level" id="e-level">
+                <option value="" selected></option>
+                <option value="">O'Level</option>
+                <option value="">National Diploma</option>
+                <option value="">Higher National Diploma</option>
+                <option value="">Degree</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="ex-level">Experience Level</label><br />
+              <select name="ex-level" id="ex-level">
+                <option value="" selected></option>
+                <option value="">Beginner</option>
+                <option value="O'Level">Intermeidate</option>
+                <option value="">Advance</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="group-5">
+            <div>
+              <label for="about-you">Tell us about you</label><br />
+              <textarea name="about-you" id="about-you"></textarea>
+            </div>
+          </div>
+
+          <button type="submit" id="btn">Create Account</button>
+        </form>
+      </div>
+
+      <div id="image-div">
+        <h2>KodeCamp</h2>
+        <p>JOIN OUR NEXT COHORT 3</p>
+      </div>
+    </main>
+  </body>
+</html>
